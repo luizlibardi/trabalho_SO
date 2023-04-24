@@ -1,3 +1,3 @@
-FROM nginx:latest
+FROM nginx:1.24
 
-COPY . /html:/usr/share/nginx/html:ro
+COPY . /usr/share/nginx/html
