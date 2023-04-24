@@ -1,0 +1,138 @@
+* {
+    margin: 0; padding: 0; font-size: 100%; font-family: Arial, sans-serif; line-height: 1.5em;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #83E1AD;
+}
+
+header {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #3DDC84, #2FA866, #063D1E);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    height: 150px;
+}
+
+nav {
+    padding: 3px;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0);
+    text-indent: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+p {
+    text-indent: 20px;
+    margin: 20px;
+}
+
+h1, h2 {
+    font-family: 'idroid', sans-serif;
+    color: #22613F;
+    text-indent: 10px;
+    
+}
+
+.principal {
+    text-align: center;
+    text-indent: 0px;
+    color: white;
+    padding: 2.5px;
+}
+
+p.principal {
+    margin: 20px 20px 0px 20px;
+}
+
+h1.principal {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+main {
+    display: block;
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    margin: 0px auto 0px auto;
+    text-align: justify;
+}
+
+#historia {
+    font-family: 'idroid', sans-serif;
+    font-size: 2em;
+    padding: 10px 10px 0px 10px;
+}
+
+.subtitulo {
+    font-family: 'idroid', sans-serif;
+    background-color: #C5EBD6;
+    font-size: 1.5em;
+    margin: 15px auto 15px auto;
+}
+
+footer {
+    margin-top: 15px;
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section.video {
+    position: relative;
+    background-color: #063D1E;
+    height: 0px;
+    /* margin: 0px -20px 15px -20px; 
+    padding-bottom: 59%; */
+}
+
+section.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+h3#extra{
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul {
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+a.externo::after {
+    content: '\00A0\1F517'
+}
+
+aside {
+    margin: 15px;
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.274);
+}
